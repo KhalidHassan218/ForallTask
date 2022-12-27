@@ -1,0 +1,46 @@
+.provider-image {
+    text-align: center;
+    
+}
+.provider-image h1 {
+    
+    color: black;
+}
+.provider-image img{
+    width: 100px;
+    height: 100px;
+        box-shadow: 1px 3px 5px 0px black;
+        
+}
+
+.holder{
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-align: center;
+
+}
+.holder p{
+font-size: 25px;
+
+}
+.holder div{
+    width: 40%;
+}
+
+.apifetched{
+    margin: 100px;
+}
+
+
+.apifetched span{
+font-size: 20px;
+font-weight: bolde;
+margin-right: 10px;
+}
+.apifetched .main{
+
+margin-right: 0;
+font-size: 25px;
+color: var(--main-color);
+}

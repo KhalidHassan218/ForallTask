@@ -1,0 +1,79 @@
+.footer{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1920.002' height='347.369' viewBox='0 0 1920.002 347.369'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='1' y1='0.717' x2='0' y2='0.717' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%2345c0be'/%3E%3Cstop offset='1' stop-color='%23367877'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath id='Path_155' data-name='Path 155' d='M960,0c42.632,188.483,960,141.967,960,141.967v205.4H0v-205.4S912.632,183.809,960,0Z' fill='url(%23linear-gradient)'/%3E%3C/svg%3E");
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height:350px;
+        width: 100%;
+}
+
+.footer-content{
+    height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+.footer-content .about-us img{
+    cursor: pointer;
+    }
+.footer-content .about-us {
+    color: white;
+    text-transform: capitalize;
+    
+    }
+.footer-content .about-us h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+.footer-content .about-us span{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+   
+    }
+
+.footer .container{
+    height: 100%;
+}
+
+.footer-logo{
+    background-color: #3e9c9b;
+        transform: translateX(-40px);
+        text-align: center;
+        cursor: pointer;
+}
+.footer-logo span{
+    color: #3e9c9b;
+        background-color: white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        margin-left: 5px;
+}
+.footer-logo img{
+    mix-blend-mode: color-dodge;
+}
+
+.footer-contact-info{
+color: white;
+text-align: center;
+text-transform: capitalize;
+}
+.footer-contact-info .map {
+font-size: 30px;
+font-weight: bold;
+
+}
+.footer-contact-info .email-office p {
+display: inline-block;
+margin-right: 10px;
+
+}

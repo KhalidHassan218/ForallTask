@@ -1,0 +1,78 @@
+.home  {
+    height: calc(100vh - 320px);
+    
+}
+.home .container {
+   
+   padding-top: 0;
+   padding-bottom: 0;
+}
+.box {
+   height: 100%;
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+ .box .content {
+   width: 40%;
+}
+ h1 {
+font-size: 30px;
+color: var(--main-color);
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+ .box .content p {
+font-size: 25px;
+
+}
+ .box .globe-image {
+position: absolute;
+    right: 90px;
+    top: -110px;
+    background-color: transparent;
+
+}
+ .box .globe-image img{
+    mix-blend-mode: screen;
+    width: 500px;
+    height: 500px;
+    
+}
+ .box .meeting-image img{
+    mix-blend-mode: screen;
+    
+    
+}
+.our-provider{
+text-align: center;    
+    margin-bottom: 100px;
+}
+.our-provider .providers-area{
+background-color: #EEF8FF;   
+padding:30px ; 
+    
+}
+.our-provider .providers-area .provider{
+background-color: #B6E1DA;
+    padding: 20px;
+    width: fit-content;
+    margin: 10px auto;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+
+.our-provider .providers-area .provider-img img{
+width: 500px;
+height: 500px;
+max-width: 500px;
+object-fit: contain;
+border-radius: 30px;
+}
+
+
